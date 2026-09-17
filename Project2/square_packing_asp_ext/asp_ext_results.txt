@@ -1,0 +1,368 @@
+Note: for n=11 resolution takes more than 13 minutes, aborted.
+Finding minimum rectangle to pack squares of sizes 1 to 5...
+Trying 8x7 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 8x8 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 9x8 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 9x7 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Found better solution with area 63 for W=9 and H=7
+Trying 10x6 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 11x5 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 12x5 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Found better solution with area 60 for W=12 and H=5
+
+=== Search Statistics ===
+Total rectangles tried: 7
+SAT calls: 3
+UNSAT calls: 4
+Total conflicts: 0.0
+Total choices: 0.0
+Total restarts: 0.0
+Total time: 0.01 seconds
+
+Candidates tried (W, H, SAT, time):
+  8x7: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  8x8: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  9x8: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+  9x7: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+  10x6: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  11x5: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  12x5: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Best solution found: 12x5 rectangle with area 60
+
+12x5 rectangle:
+
+5 5 5 5 5 2 2 . . 1 . .
+5 5 5 5 5 2 2 . 4 4 4 4
+5 5 5 5 5 3 3 3 4 4 4 4
+5 5 5 5 5 3 3 3 4 4 4 4
+5 5 5 5 5 3 3 3 4 4 4 4
+
+
+Square 1 (size 1) is at (9, 4)
+Square 2 (size 2) is at (5, 3)
+Square 3 (size 3) is at (5, 0)
+Square 4 (size 4) is at (8, 0)
+Square 5 (size 5) is at (0, 0)
+Finding minimum rectangle to pack squares of sizes 1 to 6...
+Trying 10x10 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.01s)
+Trying 11x10 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 11x9 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Found better solution with area 99 for W=11 and H=9
+Trying 12x8 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 13x7 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 14x7 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 16x6 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+
+=== Search Statistics ===
+Total rectangles tried: 7
+SAT calls: 2
+UNSAT calls: 5
+Total conflicts: 0.0
+Total choices: 0.0
+Total restarts: 0.0
+Total time: 0.02 seconds
+
+Candidates tried (W, H, SAT, time):
+  10x10: UNSAT (conflicts=0.0, choices=0.0, time=0.01s)
+  11x10: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+  11x9: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+  12x8: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  13x7: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  14x7: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  16x6: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Best solution found: 11x9 rectangle with area 99
+
+11x9 rectangle:
+
+. 3 3 3 2 2 5 5 5 5 5
+. 3 3 3 2 2 5 5 5 5 5
+. 3 3 3 . . 5 5 5 5 5
+6 6 6 6 6 6 5 5 5 5 5
+6 6 6 6 6 6 5 5 5 5 5
+6 6 6 6 6 6 4 4 4 4 .
+6 6 6 6 6 6 4 4 4 4 .
+6 6 6 6 6 6 4 4 4 4 1
+6 6 6 6 6 6 4 4 4 4 .
+
+
+Square 1 (size 1) is at (10, 1)
+Square 2 (size 2) is at (4, 7)
+Square 3 (size 3) is at (1, 6)
+Square 4 (size 4) is at (6, 0)
+Square 5 (size 5) is at (6, 4)
+Square 6 (size 6) is at (0, 0)
+Finding minimum rectangle to pack squares of sizes 1 to 7...
+Trying 12x12 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.05s)
+Trying 13x12 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 13x11 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Found better solution with area 156 for W=13 and H=12
+Trying 14x10 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 14x11 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+Found better solution with area 154 for W=14 and H=11
+Trying 15x10 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 16x9 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 17x9 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 18x8 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 19x8 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 20x7 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 21x7 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+
+=== Search Statistics ===
+Total rectangles tried: 12
+SAT calls: 2
+UNSAT calls: 10
+Total conflicts: 0.0
+Total choices: 0.0
+Total restarts: 0.0
+Total time: 0.08 seconds
+
+Candidates tried (W, H, SAT, time):
+  12x12: UNSAT (conflicts=0.0, choices=0.0, time=0.05s)
+  13x12: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+  13x11: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  14x10: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  14x11: SAT (conflicts=0.0, choices=0.0, time=0.00s)
+  15x10: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  16x9: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  17x9: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  18x8: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  19x8: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  20x7: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  21x7: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Best solution found: 14x11 rectangle with area 154
+
+14x11 rectangle:
+
+4 4 4 4 . . . 6 6 6 6 6 6 .
+4 4 4 4 3 3 3 6 6 6 6 6 6 .
+4 4 4 4 3 3 3 6 6 6 6 6 6 .
+4 4 4 4 3 3 3 6 6 6 6 6 6 .
+7 7 7 7 7 7 7 6 6 6 6 6 6 1
+7 7 7 7 7 7 7 6 6 6 6 6 6 .
+7 7 7 7 7 7 7 . . 5 5 5 5 5
+7 7 7 7 7 7 7 2 2 5 5 5 5 5
+7 7 7 7 7 7 7 2 2 5 5 5 5 5
+7 7 7 7 7 7 7 . . 5 5 5 5 5
+7 7 7 7 7 7 7 . . 5 5 5 5 5
+
+
+Square 1 (size 1) is at (13, 6)
+Square 2 (size 2) is at (7, 2)
+Square 3 (size 3) is at (4, 7)
+Square 4 (size 4) is at (0, 7)
+Square 5 (size 5) is at (9, 0)
+Square 6 (size 6) is at (7, 5)
+Square 7 (size 7) is at (0, 0)
+Finding minimum rectangle to pack squares of sizes 1 to 8...
+Trying 15x14 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.20s)
+Found better solution with area 210 for W=15 and H=14
+Trying 16x13 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.02s)
+Trying 17x12 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 19x11 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+Trying 23x9 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.03s)
+Trying 26x8 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.05s)
+
+=== Search Statistics ===
+Total rectangles tried: 6
+SAT calls: 1
+UNSAT calls: 5
+Total conflicts: 0.0
+Total choices: 0.0
+Total restarts: 0.0
+Total time: 0.32 seconds
+
+Candidates tried (W, H, SAT, time):
+  15x14: SAT (conflicts=0.0, choices=0.0, time=0.20s)
+  16x13: UNSAT (conflicts=0.0, choices=0.0, time=0.02s)
+  17x12: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  19x11: UNSAT (conflicts=0.0, choices=0.0, time=0.00s)
+  23x9: UNSAT (conflicts=0.0, choices=0.0, time=0.03s)
+  26x8: UNSAT (conflicts=0.0, choices=0.0, time=0.05s)
+Best solution found: 15x14 rectangle with area 210
+
+15x14 rectangle:
+
+6 6 6 6 6 6 5 5 5 5 5 4 4 4 4
+6 6 6 6 6 6 5 5 5 5 5 4 4 4 4
+6 6 6 6 6 6 5 5 5 5 5 4 4 4 4
+6 6 6 6 6 6 5 5 5 5 5 4 4 4 4
+6 6 6 6 6 6 5 5 5 5 5 . 3 3 3
+6 6 6 6 6 6 . . 1 . 2 2 3 3 3
+8 8 8 8 8 8 8 8 . . 2 2 3 3 3
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+
+
+Square 1 (size 1) is at (8, 8)
+Square 2 (size 2) is at (10, 7)
+Square 3 (size 3) is at (12, 7)
+Square 4 (size 4) is at (11, 10)
+Square 5 (size 5) is at (6, 9)
+Square 6 (size 6) is at (0, 8)
+Square 7 (size 7) is at (8, 0)
+Square 8 (size 8) is at (0, 0)
+Finding minimum rectangle to pack squares of sizes 1 to 9...
+Trying 17x17 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=1.06s)
+Trying 18x17 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.32s)
+Trying 18x16 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.15s)
+Found better solution with area 306 for W=18 and H=17
+Trying 19x15 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.06s)
+Trying 19x16 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.44s)
+Trying 20x15 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.01s)
+Found better solution with area 300 for W=20 and H=15
+Trying 21x14 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.02s)
+Trying 22x13 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.01s)
+Trying 23x13 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.01s)
+Trying 24x12 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.04s)
+Trying 26x11 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.10s)
+Trying 27x11 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.05s)
+Trying 29x10 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.08s)
+Trying 32x9 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.50s)
+Trying 33x9 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.43s)
+
+=== Search Statistics ===
+Total rectangles tried: 15
+SAT calls: 2
+UNSAT calls: 13
+Total conflicts: 0.0
+Total choices: 0.0
+Total restarts: 0.0
+Total time: 3.43 seconds
+
+Candidates tried (W, H, SAT, time):
+  17x17: UNSAT (conflicts=0.0, choices=0.0, time=1.06s)
+  18x17: SAT (conflicts=0.0, choices=0.0, time=0.32s)
+  18x16: UNSAT (conflicts=0.0, choices=0.0, time=0.15s)
+  19x15: UNSAT (conflicts=0.0, choices=0.0, time=0.06s)
+  19x16: UNSAT (conflicts=0.0, choices=0.0, time=0.44s)
+  20x15: SAT (conflicts=0.0, choices=0.0, time=0.01s)
+  21x14: UNSAT (conflicts=0.0, choices=0.0, time=0.02s)
+  22x13: UNSAT (conflicts=0.0, choices=0.0, time=0.01s)
+  23x13: UNSAT (conflicts=0.0, choices=0.0, time=0.01s)
+  24x12: UNSAT (conflicts=0.0, choices=0.0, time=0.04s)
+  26x11: UNSAT (conflicts=0.0, choices=0.0, time=0.10s)
+  27x11: UNSAT (conflicts=0.0, choices=0.0, time=0.05s)
+  29x10: UNSAT (conflicts=0.0, choices=0.0, time=0.08s)
+  32x9: UNSAT (conflicts=0.0, choices=0.0, time=0.50s)
+  33x9: UNSAT (conflicts=0.0, choices=0.0, time=0.43s)
+Best solution found: 20x15 rectangle with area 300
+
+20x15 rectangle:
+
+1 . . . . 6 6 6 6 6 6 8 8 8 8 8 8 8 8 .
+5 5 5 5 5 6 6 6 6 6 6 8 8 8 8 8 8 8 8 .
+5 5 5 5 5 6 6 6 6 6 6 8 8 8 8 8 8 8 8 .
+5 5 5 5 5 6 6 6 6 6 6 8 8 8 8 8 8 8 8 .
+5 5 5 5 5 6 6 6 6 6 6 8 8 8 8 8 8 8 8 .
+5 5 5 5 5 6 6 6 6 6 6 8 8 8 8 8 8 8 8 .
+9 9 9 9 9 9 9 9 9 2 2 8 8 8 8 8 8 8 8 .
+9 9 9 9 9 9 9 9 9 2 2 8 8 8 8 8 8 8 8 .
+9 9 9 9 9 9 9 9 9 4 4 4 4 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 4 4 4 4 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 4 4 4 4 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 4 4 4 4 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 3 3 3 . 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 3 3 3 . 7 7 7 7 7 7 7
+9 9 9 9 9 9 9 9 9 3 3 3 . 7 7 7 7 7 7 7
+
+
+Square 1 (size 1) is at (0, 14)
+Square 2 (size 2) is at (9, 7)
+Square 3 (size 3) is at (9, 0)
+Square 4 (size 4) is at (9, 3)
+Square 5 (size 5) is at (0, 9)
+Square 6 (size 6) is at (5, 9)
+Square 7 (size 7) is at (13, 0)
+Square 8 (size 8) is at (11, 7)
+Square 9 (size 9) is at (0, 0)
+Finding minimum rectangle to pack squares of sizes 1 to 10...
+Trying 20x20 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=10.08s)
+Trying 21x20 rectangle: SAT (conflicts=0.0, choices=0.0, time=1.71s)
+Trying 21x19 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=6.22s)
+Found better solution with area 420 for W=21 and H=20
+Trying 22x18 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=3.49s)
+Trying 22x19 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.21s)
+Found better solution with area 418 for W=22 and H=19
+Trying 23x17 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.91s)
+Trying 23x18 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.35s)
+Found better solution with area 414 for W=23 and H=18
+Trying 24x17 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.58s)
+Found better solution with area 408 for W=24 and H=17
+Trying 25x16 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.11s)
+Trying 26x15 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.04s)
+Trying 27x15 rectangle: SAT (conflicts=0.0, choices=0.0, time=0.04s)
+Found better solution with area 405 for W=27 and H=15
+Trying 28x14 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.32s)
+Trying 30x13 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.53s)
+Trying 31x13 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.25s)
+Trying 33x12 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=0.39s)
+Trying 35x11 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=2.53s)
+Trying 36x11 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=2.25s)
+Trying 39x10 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=4.10s)
+Trying 40x10 rectangle: UNSAT (conflicts=0.0, choices=0.0, time=6.67s)
+
+=== Search Statistics ===
+Total rectangles tried: 19
+SAT calls: 5
+UNSAT calls: 14
+Total conflicts: 0.0
+Total choices: 0.0
+Total restarts: 0.0
+Total time: 41.20 seconds
+
+Candidates tried (W, H, SAT, time):
+  20x20: UNSAT (conflicts=0.0, choices=0.0, time=10.08s)
+  21x20: SAT (conflicts=0.0, choices=0.0, time=1.71s)
+  21x19: UNSAT (conflicts=0.0, choices=0.0, time=6.22s)
+  22x18: UNSAT (conflicts=0.0, choices=0.0, time=3.49s)
+  22x19: SAT (conflicts=0.0, choices=0.0, time=0.21s)
+  23x17: UNSAT (conflicts=0.0, choices=0.0, time=0.91s)
+  23x18: SAT (conflicts=0.0, choices=0.0, time=0.35s)
+  24x17: SAT (conflicts=0.0, choices=0.0, time=0.58s)
+  25x16: UNSAT (conflicts=0.0, choices=0.0, time=0.11s)
+  26x15: UNSAT (conflicts=0.0, choices=0.0, time=0.04s)
+  27x15: SAT (conflicts=0.0, choices=0.0, time=0.04s)
+  28x14: UNSAT (conflicts=0.0, choices=0.0, time=0.32s)
+  30x13: UNSAT (conflicts=0.0, choices=0.0, time=0.53s)
+  31x13: UNSAT (conflicts=0.0, choices=0.0, time=0.25s)
+  33x12: UNSAT (conflicts=0.0, choices=0.0, time=0.39s)
+  35x11: UNSAT (conflicts=0.0, choices=0.0, time=2.53s)
+  36x11: UNSAT (conflicts=0.0, choices=0.0, time=2.25s)
+  39x10: UNSAT (conflicts=0.0, choices=0.0, time=4.10s)
+  40x10: UNSAT (conflicts=0.0, choices=0.0, time=6.67s)
+Best solution found: 27x15 rectangle with area 405
+
+27x15 rectangle:
+
+5 5 5 5 5 4 4 4 4 . 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+5 5 5 5 5 4 4 4 4 . 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+5 5 5 5 5 4 4 4 4 1 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+5 5 5 5 5 4 4 4 4 . 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+5 5 5 5 5 . . . . . 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+10 10 10 10 10 10 10 10 10 10 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+10 10 10 10 10 10 10 10 10 10 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+10 10 10 10 10 10 10 10 10 10 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9
+10 10 10 10 10 10 10 10 10 10 . 7 7 7 7 7 7 7 9 9 9 9 9 9 9 9 9
+10 10 10 10 10 10 10 10 10 10 . 7 7 7 7 7 7 7 . 2 2 6 6 6 6 6 6
+10 10 10 10 10 10 10 10 10 10 . 7 7 7 7 7 7 7 . 2 2 6 6 6 6 6 6
+10 10 10 10 10 10 10 10 10 10 . 7 7 7 7 7 7 7 . . . 6 6 6 6 6 6
+10 10 10 10 10 10 10 10 10 10 . 7 7 7 7 7 7 7 3 3 3 6 6 6 6 6 6
+10 10 10 10 10 10 10 10 10 10 . 7 7 7 7 7 7 7 3 3 3 6 6 6 6 6 6
+10 10 10 10 10 10 10 10 10 10 . 7 7 7 7 7 7 7 3 3 3 6 6 6 6 6 6
+
+
+Square 1 (size 1) is at (9, 12)
+Square 2 (size 2) is at (19, 4)
+Square 3 (size 3) is at (18, 0)
+Square 4 (size 4) is at (5, 11)
+Square 5 (size 5) is at (0, 10)
+Square 6 (size 6) is at (21, 0)
+Square 7 (size 7) is at (11, 0)
+Square 8 (size 8) is at (10, 7)
+Square 9 (size 9) is at (18, 6)
+Square 10 (size 10) is at (0, 0)

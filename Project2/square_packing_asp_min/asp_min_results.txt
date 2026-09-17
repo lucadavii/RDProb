@@ -1,0 +1,251 @@
+Note: n=11 takes more than 12 minutes after finding optimal solution for W=27, H=19 to prove it optimal. Aborted.
+Finding minimum rectangle to pack squares of sizes 1 to 5...
+Found solution with area 65 (W=13, H=5)
+Found solution with area 63 (W=9, H=7)
+Found solution with area 60 (W=12, H=5)
+Best solution found: 12x5 rectangle with area 60
+
+12x5 rectangle:
+
+5 5 5 5 5 . . . . 3 3 3
+5 5 5 5 5 4 4 4 4 3 3 3
+5 5 5 5 5 4 4 4 4 3 3 3
+5 5 5 5 5 4 4 4 4 2 2 1
+5 5 5 5 5 4 4 4 4 2 2 .
+
+
+Square 1 (size 1) is at (11, 1)
+Square 2 (size 2) is at (9, 0)
+Square 3 (size 3) is at (9, 2)
+Square 4 (size 4) is at (5, 0)
+Square 5 (size 5) is at (0, 0)
+
+=== Search Statistics ===
+  conflicts=197  choices=419  ground=0.010s  solve=0.004s
+Finding minimum rectangle to pack squares of sizes 1 to 6...
+Found solution with area 114 (W=6, H=19)
+Found solution with area 108 (W=18, H=6)
+Found solution with area 99 (W=11, H=9)
+Best solution found: 11x9 rectangle with area 99
+
+11x9 rectangle:
+
+1 . . 3 3 3 5 5 5 5 5
+. 2 2 3 3 3 5 5 5 5 5
+. 2 2 3 3 3 5 5 5 5 5
+6 6 6 6 6 6 5 5 5 5 5
+6 6 6 6 6 6 5 5 5 5 5
+6 6 6 6 6 6 4 4 4 4 .
+6 6 6 6 6 6 4 4 4 4 .
+6 6 6 6 6 6 4 4 4 4 .
+6 6 6 6 6 6 4 4 4 4 .
+
+
+Square 1 (size 1) is at (0, 8)
+Square 2 (size 2) is at (1, 6)
+Square 3 (size 3) is at (3, 6)
+Square 4 (size 4) is at (6, 0)
+Square 5 (size 5) is at (6, 4)
+Square 6 (size 6) is at (0, 0)
+
+=== Search Statistics ===
+  conflicts=1290  choices=1937  ground=0.043s  solve=0.021s
+Finding minimum rectangle to pack squares of sizes 1 to 7...
+Found solution with area 189 (W=27, H=7)
+Found solution with area 182 (W=7, H=26)
+Found solution with area 165 (W=11, H=15)
+Found solution with area 154 (W=11, H=14)
+Best solution found: 11x14 rectangle with area 154
+
+11x14 rectangle:
+
+5 5 5 5 5 6 6 6 6 6 6
+5 5 5 5 5 6 6 6 6 6 6
+5 5 5 5 5 6 6 6 6 6 6
+5 5 5 5 5 6 6 6 6 6 6
+5 5 5 5 5 6 6 6 6 6 6
+2 2 . . . 6 6 6 6 6 6
+2 2 . . . . . 4 4 4 4
+7 7 7 7 7 7 7 4 4 4 4
+7 7 7 7 7 7 7 4 4 4 4
+7 7 7 7 7 7 7 4 4 4 4
+7 7 7 7 7 7 7 . 3 3 3
+7 7 7 7 7 7 7 . 3 3 3
+7 7 7 7 7 7 7 . 3 3 3
+7 7 7 7 7 7 7 . . 1 .
+
+
+Square 1 (size 1) is at (9, 0)
+Square 2 (size 2) is at (0, 7)
+Square 3 (size 3) is at (8, 1)
+Square 4 (size 4) is at (7, 4)
+Square 5 (size 5) is at (0, 9)
+Square 6 (size 6) is at (5, 8)
+Square 7 (size 7) is at (0, 0)
+
+=== Search Statistics ===
+  conflicts=6847  choices=8884  ground=0.195s  solve=0.172s
+Finding minimum rectangle to pack squares of sizes 1 to 8...
+Found solution with area 272 (W=34, H=8)
+Found solution with area 256 (W=16, H=16)
+Found solution with area 252 (W=18, H=14)
+Found solution with area 238 (W=17, H=14)
+Found solution with area 234 (W=9, H=26)
+Found solution with area 231 (W=21, H=11)
+Found solution with area 225 (W=15, H=15)
+Found solution with area 224 (W=16, H=14)
+Found solution with area 210 (W=15, H=14)
+Best solution found: 15x14 rectangle with area 210
+
+15x14 rectangle:
+
+6 6 6 6 6 6 5 5 5 5 5 . 3 3 3
+6 6 6 6 6 6 5 5 5 5 5 . 3 3 3
+6 6 6 6 6 6 5 5 5 5 5 1 3 3 3
+6 6 6 6 6 6 5 5 5 5 5 4 4 4 4
+6 6 6 6 6 6 5 5 5 5 5 4 4 4 4
+6 6 6 6 6 6 . . 2 2 . 4 4 4 4
+8 8 8 8 8 8 8 8 2 2 . 4 4 4 4
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 7 7 7 7 7 7 7
+
+
+Square 1 (size 1) is at (11, 11)
+Square 2 (size 2) is at (8, 7)
+Square 3 (size 3) is at (12, 11)
+Square 4 (size 4) is at (11, 7)
+Square 5 (size 5) is at (6, 9)
+Square 6 (size 6) is at (0, 8)
+Square 7 (size 7) is at (8, 0)
+Square 8 (size 8) is at (0, 0)
+
+=== Search Statistics ===
+  conflicts=20189  choices=25575  ground=0.613s  solve=0.803s
+Finding minimum rectangle to pack squares of sizes 1 to 9...
+Found solution with area 1305 (W=29, H=45)
+Found solution with area 1218 (W=29, H=42)
+Found solution with area 957 (W=29, H=33)
+Found solution with area 638 (W=29, H=22)
+Found solution with area 600 (W=30, H=20)
+Found solution with area 570 (W=30, H=19)
+Found solution with area 540 (W=30, H=18)
+Found solution with area 510 (W=30, H=17)
+Found solution with area 480 (W=30, H=16)
+Found solution with area 462 (W=21, H=22)
+Found solution with area 441 (W=21, H=21)
+Found solution with area 420 (W=10, H=42)
+Found solution with area 378 (W=9, H=42)
+Found solution with area 357 (W=17, H=21)
+Found solution with area 342 (W=19, H=18)
+Found solution with area 336 (W=24, H=14)
+Found solution with area 330 (W=30, H=11)
+Found solution with area 325 (W=25, H=13)
+Found solution with area 312 (W=24, H=13)
+Found solution with area 300 (W=15, H=20)
+Best solution found: 15x20 rectangle with area 300
+
+15x20 rectangle:
+
+7 7 7 7 7 7 7 . . . . . . . .
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+4 4 4 4 . . . 8 8 8 8 8 8 8 8
+4 4 4 4 3 3 3 8 8 8 8 8 8 8 8
+4 4 4 4 3 3 3 2 2 6 6 6 6 6 6
+4 4 4 4 3 3 3 2 2 6 6 6 6 6 6
+9 9 9 9 9 9 9 9 9 6 6 6 6 6 6
+9 9 9 9 9 9 9 9 9 6 6 6 6 6 6
+9 9 9 9 9 9 9 9 9 6 6 6 6 6 6
+9 9 9 9 9 9 9 9 9 6 6 6 6 6 6
+9 9 9 9 9 9 9 9 9 5 5 5 5 5 .
+9 9 9 9 9 9 9 9 9 5 5 5 5 5 .
+9 9 9 9 9 9 9 9 9 5 5 5 5 5 1
+9 9 9 9 9 9 9 9 9 5 5 5 5 5 .
+9 9 9 9 9 9 9 9 9 5 5 5 5 5 .
+
+
+Square 1 (size 1) is at (14, 2)
+Square 2 (size 2) is at (7, 9)
+Square 3 (size 3) is at (4, 9)
+Square 4 (size 4) is at (0, 9)
+Square 5 (size 5) is at (9, 0)
+Square 6 (size 6) is at (9, 5)
+Square 7 (size 7) is at (0, 13)
+Square 8 (size 8) is at (7, 11)
+Square 9 (size 9) is at (0, 0)
+
+=== Search Statistics ===
+  conflicts=273823  choices=311961  ground=1.913s  solve=22.383s
+Finding minimum rectangle to pack squares of sizes 1 to 10...
+Found solution with area 770 (W=14, H=55)
+Found solution with area 660 (W=12, H=55)
+Found solution with area 605 (W=11, H=55)
+Found solution with area 594 (W=11, H=54)
+Found solution with area 583 (W=11, H=53)
+Found solution with area 528 (W=11, H=48)
+Found solution with area 510 (W=10, H=51)
+Found solution with area 500 (W=10, H=50)
+Found solution with area 490 (W=49, H=10)
+Found solution with area 480 (W=48, H=10)
+Found solution with area 470 (W=47, H=10)
+Found solution with area 460 (W=46, H=10)
+Found solution with area 451 (W=41, H=11)
+Found solution with area 442 (W=26, H=17)
+Found solution with area 420 (W=28, H=15)
+Found solution with area 418 (W=19, H=22)
+Found solution with area 405 (W=15, H=27)
+Best solution found: 15x27 rectangle with area 405
+
+15x27 rectangle:
+
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+7 7 7 7 7 7 7 8 8 8 8 8 8 8 8
+6 6 6 6 6 6 . 8 8 8 8 8 8 8 8
+6 6 6 6 6 6 9 9 9 9 9 9 9 9 9
+6 6 6 6 6 6 9 9 9 9 9 9 9 9 9
+6 6 6 6 6 6 9 9 9 9 9 9 9 9 9
+6 6 6 6 6 6 9 9 9 9 9 9 9 9 9
+6 6 6 6 6 6 9 9 9 9 9 9 9 9 9
+. . . . . . 9 9 9 9 9 9 9 9 9
+. . . 3 3 3 9 9 9 9 9 9 9 9 9
+2 2 . 3 3 3 9 9 9 9 9 9 9 9 9
+2 2 . 3 3 3 9 9 9 9 9 9 9 9 9
+10 10 10 10 10 10 10 10 10 10 4 4 4 4 .
+10 10 10 10 10 10 10 10 10 10 4 4 4 4 .
+10 10 10 10 10 10 10 10 10 10 4 4 4 4 .
+10 10 10 10 10 10 10 10 10 10 4 4 4 4 .
+10 10 10 10 10 10 10 10 10 10 5 5 5 5 5
+10 10 10 10 10 10 10 10 10 10 5 5 5 5 5
+10 10 10 10 10 10 10 10 10 10 5 5 5 5 5
+10 10 10 10 10 10 10 10 10 10 5 5 5 5 5
+10 10 10 10 10 10 10 10 10 10 5 5 5 5 5
+10 10 10 10 10 10 10 10 10 10 . . . 1 .
+
+
+Square 1 (size 1) is at (13, 0)
+Square 2 (size 2) is at (0, 10)
+Square 3 (size 3) is at (3, 10)
+Square 4 (size 4) is at (10, 6)
+Square 5 (size 5) is at (10, 1)
+Square 6 (size 6) is at (0, 14)
+Square 7 (size 7) is at (0, 20)
+Square 8 (size 8) is at (7, 19)
+Square 9 (size 9) is at (6, 10)
+Square 10 (size 10) is at (0, 0)
+
+=== Search Statistics ===
+  conflicts=2015051  choices=2275332  ground=5.589s  solve=264.619s
